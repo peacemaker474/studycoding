@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta chareset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/main.css" />
+        <title> What's your plan for today? </title>
+    </head>
+    <body>
+    <header>
+        <article class="clockSection">
+            <!-- 인사 및 환영-->
+            <div class="leftContent jsGreeting">
+            </div>
+            <!-- 현재 시간 -->
+            <div class="leftContent jsClock">
+                <h2> 00:00 </h2>
+                <!-- D-Day 계산 
+                <input id="dDay" type="date" />
+                <h3></h3>
+                -->
+            </div>
+            <!-- 추후의 기능 개발 예정 -->
+            <div class="leftContent jsupdate">
+            </div>
+        </article>
+    </header>
+    <main>
+    <!-- enterName으로 입력받으면 display를 바꾸는 식 -->
+        <div class="enterName">
+            <input id="enter" type="text" placeholder="이름을 입력해주세요."/>
+        </div>
+    <!--여기는 toDoList 만들기 -->
+        <article class="listSection">
+        <!-- 할일 작성하는 곳 -->
+            <div class="rightContent jstoDoList">
+            </div>
+        <!-- 할일 목록 -->
+            <div class="rightContent list">
+            </div>
+        <!-- 완료 목록 -->
+            <div class="rightContent finishList">
+            </div>
+        </article>
+    </main>
+        <script src="js/clock.js"></script>
+    </body>
+
+</html>

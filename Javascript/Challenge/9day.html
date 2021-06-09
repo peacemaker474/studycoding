@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Challenge 9 days </title>
+    <style>
+        input[type="number"] {
+            width:60px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <h1>Random Number Game</h1>
+    <h2></h2>
+    <input type="range" id="jsRange" min="0" max="200" value="100" step="5" list="valueRange" />
+    <datalist id="valueRange">
+        <option value="0"></option>
+        <option value="50"></option>
+        <option value="100"></option>
+        <option value="150"></option>
+        <option value="200"></option>
+    </datalist>
+    <div class="randomGame">
+        <form>
+            <label for="jsNumber">Guess the number : </label>
+            <input id="jsNumber" type="number" value="" />
+            <button id="jsSubmit" value="" /> Play! </button>
+            <p></p>
+            <h4></h4>
+        </form>
+    </div>
+    <script src="9days.js"></script>
+</body>
+</html>
