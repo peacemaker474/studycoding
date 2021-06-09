@@ -15,3 +15,17 @@ A code that I've written for easy use of the materials I've studied
 ## Vanilla JS Challenge by nomadCoders
 
   🧡정리해야함 // 각 파일 상세 설명 필요
+
+## To Do List
+
+
+    ⏩ HTML 구조화 및 CSS 틀 작업 완료
+    ⏩ 현재 시간 JS 작업 완료
+    ⏩ TO DO LIST JS 80%
+    ⏩ 날씨 정보, Greeting 부분 작업
+    
+    ➕ D-Day 계산기, Calendar 만들기
+    ➕ 첫 화면에서 이름을 입력하고 양 옆에서 구조화 한 CSS 애니메이션 주기
+    ➕ 타이머 기능 만들기 (?) // 미지수
+    
+    
