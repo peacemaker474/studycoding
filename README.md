@@ -16,7 +16,7 @@ A code that I've written for easy use of the materials I've studied
 
   🧡정리해야함 // 각 파일 상세 설명 필요
 
-## To Do List
+## To Do List (2021.06.10 작업 및 수정)
 
 
     ✅ HTML 구조화 및 CSS 틀 작업 완료
