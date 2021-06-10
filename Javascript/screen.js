@@ -36,8 +36,9 @@ for (let j = 0; j < slideCount; j++){
 // 슬라이드 이동 함수
 
 function moveToSlide(idx) {
+    console.log(idx);
     sliderContainer[0].style.left = `${idx * -100}%`;
-    sliderContainer[0].classList.add('animated');
+    // sliderContainer[0].classList.add('animated');
     currentIndex = idx;
 
     // updateNav();

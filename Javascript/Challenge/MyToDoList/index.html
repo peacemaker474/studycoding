@@ -10,11 +10,20 @@
     <header>
         <article class="clockSection">
             <!-- 인사 및 환영-->
-            <div class="leftContent jsGreeting">
+            <div class="leftContent">
+                <div class="jsGreeting">
+                    <h1></h1>
+                    <!-- 페이지를 리로드 할 것인지? 고민을 해야하는 부분 -->
+                    <form id="changeName"> 
+                        <button> 이름 바꾸기 </button> 
+                    </form>
+                </div>
+                <div class="jsClock">
+                    <h2> 00:00 </h2>
+                </div>
             </div>
             <!-- 현재 시간 -->
-            <div class="leftContent jsClock">
-                <h2> 00:00 </h2>
+            <div class="leftContent">
                 <!-- D-Day 계산 
                 <input id="dDay" type="date" />
                 <h3></h3>
@@ -25,25 +34,35 @@
             </div>
         </article>
     </header>
-    <main>
-    <!-- enterName으로 입력받으면 display를 바꾸는 식 -->
+    <article class="middle">
         <div class="enterName">
-            <input id="enter" type="text" placeholder="이름을 입력해주세요."/>
+            <form id="inputName">
+                <input id="enter" type="text" placeholder="이름을 입력해주세요."/>
+            </form>
         </div>
+    </article>
+    <main>
     <!--여기는 toDoList 만들기 -->
         <article class="listSection">
         <!-- 할일 작성하는 곳 -->
             <div class="rightContent jstoDoList">
+                <form id="inputToDo">
+                    <input id="writeList" type="text" placeholder="할 일을 적어주세요." name="list" />
+                </form>
             </div>
         <!-- 할일 목록 -->
-            <div class="rightContent list">
+            <div class="rightContent nowList">
+                <ul class="toDoList"></ul>
             </div>
         <!-- 완료 목록 -->
             <div class="rightContent finishList">
+                <ul class="fnToDoList">
             </div>
         </article>
     </main>
+        <script src="js/greeting.js"></script>
         <script src="js/clock.js"></script>
+        <script src="js/toDo.js"></script>
     </body>
 
 </html>
