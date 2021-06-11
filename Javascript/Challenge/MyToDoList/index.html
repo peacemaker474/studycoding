@@ -7,13 +7,15 @@
         <title> What's your plan for today? </title>
     </head>
     <body>
+    <div class="bgfillter">
+    </div>
     <header>
         <article class="clockSection">
             <!-- 인사 및 환영-->
             <div class="leftContent">
                 <div class="jsGreeting">
                     <h1></h1>
-                    <!-- 페이지를 리로드 할 것인지? 고민을 해야하는 부분 -->
+                    <!-- 페이지를 리로드하여 초기 화면으로 감 -->
                     <form id="changeName"> 
                         <button> 이름 바꾸기 </button> 
                     </form>
@@ -37,9 +39,10 @@
     <article class="middle">
         <div class="enterName">
             <form id="inputName">
-                <input id="enter" type="text" placeholder="이름을 입력해주세요."/>
+                <input id="enter" type="text" placeholder="이름을 입력해주세요." autocomplete="off" />
             </form>
         </div>
+        <h3 class="famousWrite"></h3> <!-- 명언 -->
     </article>
     <main>
     <!--여기는 toDoList 만들기 -->
@@ -47,7 +50,7 @@
         <!-- 할일 작성하는 곳 -->
             <div class="rightContent jstoDoList">
                 <form id="inputToDo">
-                    <input id="writeList" type="text" placeholder="할 일을 적어주세요." name="list" />
+                    <input id="writeList" type="text" placeholder="할 일을 적어주세요." name="list" autocomplete="off" />
                 </form>
             </div>
         <!-- 할일 목록 -->
@@ -63,6 +66,8 @@
         <script src="js/greeting.js"></script>
         <script src="js/clock.js"></script>
         <script src="js/toDo.js"></script>
+        <script src="js/famous.js"></script>
+        <script src="js/bg.js"></script>
     </body>
 
 </html>
