@@ -15,16 +15,3 @@ A code that I've written for easy use of the materials I've studied
 ## Vanilla JS Challenge by nomadCoders
 
   🧡정리해야함 // 각 파일 상세 설명 필요
-
-## To Do List (2021.06.10 작업 및 수정)
-
-
-    ✅ HTML 구조화 및 CSS 틀 작업 완료
-    ✅ 현재 시간 JS 작업 완료
-    ✅ TO DO LIST JS 완료
-    ✅ Greeting JS 완료
-    ✅ 첫 화면에서 이름을 입력하고 양 옆에서 구조화 한 CSS 애니메이션 주기
-    ⏩ background-image random으로 가져오기.
-    ⏩ 명언 API, 네이버 검색 API, Calendar, 지도 APII
-    
-    
